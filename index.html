@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Form 001</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/wysiwyg.js"></script>
+	<script type="text/javascript" src="js/wysiwyg-editor.js"></script>
+	<script type="text/javascript" src="js/app.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/wysiwyg-editor.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.min.css">
+</head>
+<body>
+	<button class="disSubmitBtn">Submit</button>
+	<div class="disInlineMenuWrapper">
+		<button class="disPlusBtn fa fa-plus"></button>
+		<span class="disInlineMenu" style="display: none;">
+			<button class="disImageBtn fa fa-camera"></button>
+			<button class="disVideoBtn fa fa-play"></button>
+			<button class="disEmbedBtn fa fa-code"></button>
+			<button class="disHrBtn fa fa-arrows-h"></button>
+		</span>
+	</div>
+	<div class="disInlineMediaTransformMenu" style="display: none;">
+		<button class="fa fa-align-left" data-action="media-transform" data-action-value="out-left"></button>
+		<button class="fa fa-align-center is-active" data-action="media-transform" data-action-value="in-center"></button>
+		<button class="fa fa-th" data-action="media-transform" data-action-value="out-center"></button>
+		<button class="fa fa-th-large" data-action="media-transform" data-action-value="fillwidth"></button>
+	</div>
+	<div class="disInlineHighlightMenu" style="display: none;">
+		<button class="fa fa-" data-action="text-transform" data-action-value="bold"></button>
+		<button class="fa fa-" data-action="text-transform" data-action-value="italic"></button>
+		<button class="fa fa-" data-action="text-transform" data-action-value="hyperlink"></button>
+		<button class="fa fa-" data-action="text-transform2" data-action-value="h1"></button>
+		<button class="fa fa-" data-action="text-transform2" data-action-value="h2"></button>
+		<button class="fa fa-" data-action="text-transform2" data-action-value="blockquote"></button>
+	</div>
+	<div class="disContentWrapper"></div>
+</body>
+</html>
